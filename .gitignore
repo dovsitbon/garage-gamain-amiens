@@ -49,3 +49,6 @@ next-env.d.ts
 
 # reels téléchargés (lourds, re-téléchargeables avec yt-dlp)
 /assets/video/
+
+.vercel
+.env*
