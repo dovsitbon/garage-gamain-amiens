@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "title": "Garage, mechanics and car body repair in Amiens, chaussée Jules Ferry | Garage Gamain",
+    "description": "Garage Gamain, 376 chaussée Jules Ferry, Amiens: servicing and oil changes, brakes, tyres, diagnostics and breakdowns, bodywork and scratches, air conditioning. Free quote, quick reply. Rated 4.1/5 on Google.",
+    "ogAlt": "Garage Gamain, mechanics and bodywork, 376 chaussée Jules Ferry, Amiens"
+  },
+  "nav": {
+    "mecanique": "Mechanics",
+    "carrosserie": "Bodywork",
+    "entretien": "Servicing",
+    "tarifs": "Prices",
+    "infos": "Info",
+    "devis": "Request a quote",
+    "devisShort": "Quote",
+    "call": "Call",
+    "menu": "Menu",
+    "close": "Close menu",
+    "home": "Garage Gamain, home",
+    "lang": "Language",
+    "skip": "Skip to content"
+  },
+  "intro": {
+    "skip": "Skip"
+  },
+  "announce": {
+    "close": "Close banner"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed",
+    "until": "until {time}",
+    "reopens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "rating": {
+    "label": "{value}/5 on Google",
+    "count": "{count} reviews",
+    "asOf": "Rating checked in {date}"
+  },
+  "hero": {
+    "eyebrow": "Mechanics · Bodywork · Servicing · Amiens",
+    "title": "A clear quote, a quick repair",
+    "lead": "The garage on chaussée Jules Ferry services and repairs every make. We take a look, explain what’s wrong and give you the price before we start.",
+    "field": "Your registration or car model",
+    "fieldPh": "AB-123-CD or 2016 Clio",
+    "devis": "Request a quote",
+    "call": "Call",
+    "tarifs": "See prices",
+    "photo": "Workshop photo coming soon"
+  },
+  "tiles": {
+    "eyebrow": "What we do",
+    "title": "Mechanics, servicing and bodywork under one roof",
+    "from": "from {price}",
+    "onQuote": "Price on quote",
+    "items": {
+      "entretien": { "title": "Servicing & oil change", "text": "Oil change, filters, scheduled service, timing belt, battery." },
+      "freins": { "title": "Brakes", "text": "Pads, discs, brake fluid. We show you the wear." },
+      "pneus": { "title": "Tyres", "text": "Fitting, balancing, punctures. Summer, winter or all-season." },
+      "diagnostic": { "title": "Diagnostics & breakdowns", "text": "Warning light on, odd noise, car that won’t start." },
+      "carrosserie": { "title": "Bodywork & scratches", "text": "Scratches, dents, bumpers, paint touch-ups." },
+      "clim": { "title": "Air conditioning", "text": "Re-gas, system check, leak finding." }
+    }
+  },
+  "strip": {
+    "label": "At a glance",
+    "items": [
+      { "title": "Free quote", "text": "You get the price before any work starts." },
+      { "title": "Quick reply", "text": "We call you back fast, with a price and a time frame." },
+      { "title": "Every make", "text": "Small cars, family cars, vans, petrol or diesel." },
+      { "title": "03 22 50 36 36", "text": "A question, a strange noise? Call the garage." }
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Before / after",
+    "title": "A scratch, a dent: see the result",
+    "lead": "Drag the slider to compare. Photos are taken at the garage, before and after the repair.",
+    "before": "Before",
+    "after": "After",
+    "handle": "Compare before and after",
+    "soon": "The first before / after photos are on their way. Drag the slider: this is where you’ll see the bodywork.",
+    "slotBefore": "Photo before repair",
+    "slotAfter": "Photo after repair",
+    "slots": ["Scratched door", "Dented bumper"]
+  },
+  "tarifs": {
+    "eyebrow": "Prices & times",
+    "title": "Prices given before we start",
+    "lead": "Prices depend on the model and the parts. Give us your registration and we’ll send a precise, free quote before any work.",
+    "note": "Indicative time off the road, depending on the model and parts availability.",
+    "head": { "service": "Service", "price": "Indicative price", "delay": "Time" },
+    "from": "from {price}",
+    "onQuote": "on quote",
+    "confirm": "to be confirmed",
+    "ask": "Request a quote"
+  },
+  "blocks": {
+    "entretien": {
+      "eyebrow": "Servicing",
+      "title": "Servicing that keeps your warranty",
+      "text": "Oil change, filters, a service by the manufacturer’s schedule: servicing done here keeps your car’s warranty, with parts of matching quality. We tell you what’s urgent and what can wait.",
+      "cta": "Book a slot"
+    },
+    "carrosserie": {
+      "eyebrow": "Bodywork",
+      "title": "A scratch, a dent? Send a photo",
+      "text": "A door ding in a car park, a bumper scraped on a post, a scratch along the wing: take one or two photos with your phone and we’ll tell you what can be done and how much, before you even come in.",
+      "cta": "Send photos"
+    },
+    "confiance": {
+      "eyebrow": "Trust",
+      "title": "A clear quote, parts explained",
+      "text": "Before we touch your car, we explain the fault, the parts to replace and the price. If we find something else along the way, we call you first. And we’re happy to show you the old parts.",
+      "cta": "Request a quote"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Google reviews",
+    "title": "What comes up in reviews",
+    "themes": ["Fair prices", "Clear quotes", "A responsive garage", "A mechanic you can trust", "Bodywork and scratches", "Breakdowns sorted"],
+    "cta": "Read the reviews on Google"
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "Come to the garage",
+    "address": "Address",
+    "route": "Directions",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "closedDay": "Closed",
+    "toConfirm": "to be confirmed",
+    "closures": "Upcoming closures",
+    "access": "Access and parking",
+    "accessText": "On chaussée Jules Ferry, the road heading out towards Longueau, east of Amiens. Park in front of the garage while you drop the car off, or in the nearby streets. If the car stays for the day, we’ll tell you where to leave it.",
+    "mapTitle": "Map to Garage Gamain, 376 chaussée Jules Ferry, Amiens"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you come",
+    "items": [
+      { "q": "Do I need to book?", "a": "For servicing or a repair, yes: call 03 22 50 36 36 or send a request online and we’ll offer you a slot. For a quick check or some advice, drop by during opening hours." },
+      { "q": "What are your opening hours?", "a": "Monday to Friday, 8:30am to 12pm and 1:45pm to 6pm. Saturday hours are to be confirmed: please call before coming." },
+      { "q": "Is the quote free?", "a": "Yes. You get the price before any work, and nothing is done without your go-ahead. For bodywork, one or two photos are often enough for a first estimate." },
+      { "q": "How long will you keep my car?", "a": "An oil change or brake pads take one to two hours. A timing belt, a clutch or bodywork often take one or more days, depending on parts. We give you the time frame with the quote." },
+      { "q": "How can I pay?", "a": "Card and cash, to be confirmed with the garage. You pay when you collect the car." },
+      { "q": "Where do I park when I arrive?", "a": "In front of the garage at 376 chaussée Jules Ferry, while you drop off the car and keys. If it stays several days, we’ll tell you where to leave it." }
+    ]
+  },
+  "footer": {
+    "tagline": "Mechanics, servicing and bodywork for every make, on chaussée Jules Ferry in Amiens. Free quote, quick reply.",
+    "contact": "Garage",
+    "pages": "Pages",
+    "days": "Monday to Friday\n8:30am – 12pm, 1:45pm – 6pm",
+    "closed": "Saturday: to be confirmed · Sunday: closed",
+    "rights": "Garage Gamain Cédric, Amiens",
+    "legal": "Legal notice"
+  },
+  "devis": {
+    "eyebrow": "Free quote",
+    "title": "Request a quote",
+    "lead": "Tell us about your car and what’s wrong, and add 1 to 3 photos if it’s bodywork. The garage calls you back with a price and a time frame. Nothing is done without your go-ahead.",
+    "preferCall": "Easier by phone?",
+    "sections": {
+      "vehicle": "Your car",
+      "need": "What you need",
+      "photos": "Photos",
+      "date": "Preferred date",
+      "contact": "Your details"
+    },
+    "fields": {
+      "vehicle": "Registration or model",
+      "vehiclePh": "AB-123-CD or 2017 Peugeot 208",
+      "km": "Mileage (km)",
+      "kmPh": "E.g. 92,000",
+      "needs": { "entretien": "Servicing", "panne": "Breakdown", "carrosserie": "Bodywork", "autre": "Other" },
+      "detailsLabel": "More precisely",
+      "detailsHint": "choose as many as you like",
+      "details": "Describe what’s happening",
+      "detailsPh": "E.g. orange engine light since yesterday, noise when braking at the front, scratch on the rear left door…",
+      "photos": "Add photos",
+      "photosHint": "Especially for bodywork: one overall shot, then a close-up of the damage.",
+      "photoRemove": "Remove photo",
+      "photosCount": "{count}/3",
+      "delays": { "asap": "As soon as possible", "semaine": "This week", "date": "On a specific date:" },
+      "date": "Preferred date",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "emailHint": "(to receive a confirmation)",
+      "message": "Message",
+      "messagePh": "Any detail, when you’re available, a question…"
+    },
+    "details": {
+      "vidange": "Oil change",
+      "revision": "Service",
+      "freins": "Brakes",
+      "pneus": "Tyres",
+      "distribution": "Timing belt",
+      "clim": "Air conditioning",
+      "batterie": "Battery",
+      "voyant": "Warning light",
+      "demarrage": "Won’t start",
+      "bruit": "Odd noise",
+      "fumee": "Smoke, smell",
+      "embrayage": "Clutch",
+      "controle-technique": "MOT re-test",
+      "rayure": "Scratch",
+      "bosse": "Dent, impact",
+      "pare-chocs": "Bumper",
+      "retroviseur": "Wing mirror",
+      "phares": "Headlights",
+      "peinture": "Paint"
+    },
+    "errors": {
+      "vehicle": "Please enter the registration or model.",
+      "need": "Please choose what you need.",
+      "details": "Tell us what needs doing (tick a box or write a few words).",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn’t look right.",
+      "photo": "This photo couldn’t be read. Try another image.",
+      "generic": "Sending failed. Please try again, or call the garage on 03 22 50 36 36."
+    },
+    "submit": "Send request",
+    "sending": "Sending…",
+    "privacy": "Your details are only used to answer this request. They are never sold or used for advertising.",
+    "success": {
+      "title": "Request received",
+      "text": "The garage will look at your request and call you back with a price and a time frame.",
+      "email": "A summary has just been sent to your email.",
+      "notNotified": "To be sure the garage got it, call directly:",
+      "again": "Send another request"
+    },
+    "message": {
+      "title": "New quote request",
+      "vehicle": "Car",
+      "km": "Mileage",
+      "need": "Need",
+      "details": "Details",
+      "description": "Description",
+      "date": "Preferred date",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "photos": "Photos attached"
+    },
+    "email": {
+      "subject": "Quote request",
+      "confirmSubject": "Your quote request, Garage Gamain",
+      "confirmIntro": "Hello {name},\n\nThank you for your request. Here is what we received:",
+      "confirmOutro": "We’ll call you back with a price and a time frame. Any question: {phone}, Monday to Friday, 8:30am – 12pm and 1:45pm – 6pm.\n\nGarage Gamain\n376 chaussée Jules Ferry, 80090 Amiens, France"
+    }
+  },
+  "pages": {
+    "carrosserie": {
+      "metaTitle": "Car body repair in Amiens, scratches and dents | Garage Gamain",
+      "metaDescription": "Car body repair in Amiens: scratches, dents, bumpers, paint touch-ups, headlights. Free quote from a photo, quick reply. Garage Gamain, 376 chaussée Jules Ferry.",
+      "eyebrow": "Bodywork · Amiens",
+      "title": "Car body repair in Amiens",
+      "intro": "A scratched door, a dented bumper, a car park ding: send a photo and we’ll tell you what can be repaired and how much. Every make, on chaussée Jules Ferry.",
+      "cta": "Send photos",
+      "listTitle": "What we repair",
+      "list": [
+        { "title": "Scratches", "text": "Surface scratch or down to the metal: touch-up, polishing or repaint depending on the depth." },
+        { "title": "Dents and impacts", "text": "Door, wing, bonnet: we straighten when we can, and replace when that makes more sense." },
+        { "title": "Bumpers", "text": "Cracked, pushed in or hanging off: repair, refitting or replacement." },
+        { "title": "Headlights and mirrors", "text": "Yellowed lenses restored, mirrors and covers replaced." }
+      ],
+      "howTitle": "How it works",
+      "how": [
+        { "title": "Send 1 to 3 photos", "text": "One shot of the whole car, then a close-up of the damage, in daylight if you can." },
+        { "title": "We call you back with a price", "text": "A first estimate, then the final quote once we see the car. Free, no commitment." },
+        { "title": "We agree on a date", "text": "We tell you how long the car will be off the road and let you know as soon as it’s ready." }
+      ],
+      "related": "Insurance: if an assessor needs to see the car, bring the accident report and your insurer’s details and we’ll arrange it with them. To be confirmed with the garage."
+    },
+    "entretien": {
+      "metaTitle": "Car servicing and oil change in Amiens, every make | Garage Gamain",
+      "metaDescription": "Oil change, scheduled servicing, filters, brakes, timing belt in Amiens. Manufacturer warranty kept, free quote. Garage Gamain, chaussée Jules Ferry.",
+      "eyebrow": "Servicing · Amiens",
+      "title": "Car servicing and oil change in Amiens",
+      "intro": "Regular servicing means fewer breakdowns and a car that sells better. We follow your manufacturer’s schedule, for every make, and tell you honestly what can wait.",
+      "cta": "Book a slot",
+      "listTitle": "Routine servicing",
+      "list": [
+        { "title": "Oil change", "text": "The right oil for your engine, a new oil filter, all levels checked." },
+        { "title": "Scheduled service", "text": "By the manufacturer’s programme: your car’s warranty is kept." },
+        { "title": "Brakes and tyres", "text": "Wear checked at every visit, and we show you where things stand." },
+        { "title": "Timing belt", "text": "Belt and tensioners replaced on schedule, before they take the engine with them." }
+      ],
+      "howTitle": "When should you service?",
+      "how": [
+        { "title": "Follow the handbook", "text": "Usually every 15,000 to 30,000 km, or once a year. The interval is in the service book or on the dashboard." },
+        { "title": "Watch the warning lights", "text": "A spanner or oil can on the dashboard means the oil change is due: don’t drive for months like that." },
+        { "title": "Before long trips", "text": "Before the holidays or winter: tyres, brakes, battery, fluids. An hour at the garage for peace of mind." }
+      ],
+      "related": "Not sure where your car is up to? Give us the registration and mileage, and we’ll tell you what’s due."
+    }
+  },
+  "legal": {
+    "metaTitle": "Legal notice | Garage Gamain, Amiens",
+    "title": "Legal notice",
+    "editor": "Publisher",
+    "editorText": "{company}, 376 chaussée Jules Ferry, 80090 Amiens, France. Phone: +33 3 22 50 36 36.",
+    "siret": "SIRET: {siret}.",
+    "siretMissing": "SIRET: to be added.",
+    "director": "Publication director: {director}.",
+    "host": "Hosting",
+    "data": "Personal data",
+    "dataText": "Information sent through the quote form (car, name, phone, email, photos, message) is only used to answer your request. It is emailed to the garage and not stored on the site. You can ask for it to be deleted by calling the garage.",
+    "photos": "Photos",
+    "photosText": "Garage photos: Garage Gamain. No stock images and no AI-generated images.",
+    "cookies": "Cookies",
+    "cookiesText": "The site uses no advertising or analytics cookies. Only your language choice is remembered. The map is provided by Google Maps."
+  },
+  "alt": {}
+}

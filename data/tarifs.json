@@ -1,0 +1,64 @@
+{
+  "_note": "Tarifs et durées affichés sur le site (tableau, tuiles, pages SEO, données structurées). price : prix « à partir de » en euros TTC, ou null (affiché « sur devis »). delay : durée indicative d'immobilisation dans les deux langues, ou null. confirm: true = prestation à confirmer avec le garage (affichée avec la mention « à confirmer »). Tout est À REMPLIR / VALIDER avec le garage : aucun prix n'a été inventé.",
+  "categories": [
+    {
+      "id": "entretien",
+      "name": { "fr": "Entretien & vidange", "en": "Servicing & oil change" },
+      "items": [
+        { "id": "vidange", "name": { "fr": "Vidange et filtre à huile", "en": "Oil and oil filter change" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" } },
+        { "id": "revision", "name": { "fr": "Révision selon le carnet constructeur", "en": "Manufacturer-schedule service" }, "price": null, "delay": { "fr": "2 à 3 h", "en": "2 to 3 hours" } },
+        { "id": "filtres", "name": { "fr": "Filtres à air, habitacle, carburant", "en": "Air, cabin and fuel filters" }, "price": null, "delay": { "fr": "Moins d'1 h", "en": "Under 1 hour" } },
+        { "id": "distribution", "name": { "fr": "Kit de distribution", "en": "Timing belt kit" }, "price": null, "delay": { "fr": "Dans la journée", "en": "Same day" } },
+        { "id": "batterie", "name": { "fr": "Batterie (contrôle et remplacement)", "en": "Battery (test and replacement)" }, "price": null, "delay": { "fr": "30 min", "en": "30 min" } }
+      ]
+    },
+    {
+      "id": "freins",
+      "name": { "fr": "Freinage", "en": "Brakes" },
+      "items": [
+        { "id": "plaquettes", "name": { "fr": "Plaquettes de frein (un essieu)", "en": "Brake pads (one axle)" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" } },
+        { "id": "disques", "name": { "fr": "Disques et plaquettes (un essieu)", "en": "Discs and pads (one axle)" }, "price": null, "delay": { "fr": "Environ 2 h", "en": "About 2 hours" } },
+        { "id": "liquide", "name": { "fr": "Purge du liquide de frein", "en": "Brake fluid flush" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" } }
+      ]
+    },
+    {
+      "id": "pneus",
+      "name": { "fr": "Pneus", "en": "Tyres" },
+      "items": [
+        { "id": "montage", "name": { "fr": "Montage et équilibrage (la paire)", "en": "Fitting and balancing (pair)" }, "price": null, "delay": { "fr": "Environ 45 min", "en": "About 45 min" } },
+        { "id": "crevaison", "name": { "fr": "Réparation de crevaison", "en": "Puncture repair" }, "price": null, "delay": { "fr": "30 min", "en": "30 min" } },
+        { "id": "parallelisme", "name": { "fr": "Géométrie, parallélisme", "en": "Wheel alignment" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" }, "confirm": true }
+      ]
+    },
+    {
+      "id": "diagnostic",
+      "name": { "fr": "Diagnostic & panne", "en": "Diagnostics & breakdowns" },
+      "items": [
+        { "id": "valise", "name": { "fr": "Diagnostic électronique (valise)", "en": "Electronic diagnostic scan" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" } },
+        { "id": "voyant", "name": { "fr": "Voyant allumé, recherche de panne", "en": "Warning light, fault finding" }, "price": null, "delay": { "fr": "Selon la panne", "en": "Depends on the fault" } },
+        { "id": "embrayage", "name": { "fr": "Embrayage", "en": "Clutch" }, "price": null, "delay": { "fr": "1 à 2 jours", "en": "1 to 2 days" } },
+        { "id": "echappement", "name": { "fr": "Échappement, silencieux", "en": "Exhaust, silencer" }, "price": null, "delay": { "fr": "Selon les pièces", "en": "Depends on parts" } },
+        { "id": "controle-technique", "name": { "fr": "Préparation et contre-visite du contrôle technique", "en": "MOT preparation and re-test repairs" }, "price": null, "delay": { "fr": "Selon les points relevés", "en": "Depends on the report" } }
+      ]
+    },
+    {
+      "id": "carrosserie",
+      "name": { "fr": "Carrosserie", "en": "Bodywork" },
+      "items": [
+        { "id": "rayure", "name": { "fr": "Rayure, retouche de peinture", "en": "Scratch, paint touch-up" }, "price": null, "delay": { "fr": "Selon l'étendue", "en": "Depends on the size" } },
+        { "id": "bosse", "name": { "fr": "Choc, bosse", "en": "Dent, impact" }, "price": null, "delay": { "fr": "Sur devis", "en": "On quote" } },
+        { "id": "pare-chocs", "name": { "fr": "Pare-chocs (réparation ou remplacement)", "en": "Bumper (repair or replacement)" }, "price": null, "delay": { "fr": "1 à 3 jours", "en": "1 to 3 days" } },
+        { "id": "peinture", "name": { "fr": "Peinture d'un élément", "en": "Single panel respray" }, "price": null, "delay": { "fr": "2 à 4 jours", "en": "2 to 4 days" }, "confirm": true },
+        { "id": "phares", "name": { "fr": "Rénovation des optiques de phare", "en": "Headlight restoration" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" } }
+      ]
+    },
+    {
+      "id": "clim",
+      "name": { "fr": "Climatisation", "en": "Air conditioning" },
+      "items": [
+        { "id": "recharge", "name": { "fr": "Recharge de climatisation", "en": "Air-con re-gas" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" } },
+        { "id": "fuite", "name": { "fr": "Contrôle, recherche de fuite", "en": "System check, leak finding" }, "price": null, "delay": { "fr": "Environ 1 h", "en": "About 1 hour" } }
+      ]
+    }
+  ]
+}

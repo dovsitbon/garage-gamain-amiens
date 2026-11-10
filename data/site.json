@@ -1,0 +1,21 @@
+{
+  "name": "Garage Gamain",
+  "fullName": "Garage Gamain Cédric",
+  "url": "https://garage-gamain-amiens.vercel.app",
+  "phone": "03 22 50 36 36",
+  "phoneIntl": "+33 3 22 50 36 36",
+  "tel": "+33322503636",
+  "whatsapp": null,
+  "email": null,
+  "address": { "street": "376 chaussée Jules Ferry", "postalCode": "80090", "city": "Amiens", "district": "Chaussée Jules Ferry", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.878647, "lng": 2.336518 },
+  "maps": "https://www.google.com/maps/search/?api=1&query=Garage+Gamain+C%C3%A9dric+376+chauss%C3%A9e+Jules+Ferry+80090+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=Garage+Gamain+C%C3%A9dric,+376+chauss%C3%A9e+Jules+Ferry,+80090+Amiens&z=16&output=embed",
+  "rating": { "value": 4.1, "count": 123, "asOf": "2026-11-10", "source": "Google" },
+  "legal": {
+    "company": null,
+    "siret": null,
+    "director": "Cédric Gamain",
+    "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis"
+  }
+}

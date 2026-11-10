@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "title": "Garage, mécanique et carrosserie à Amiens, chaussée Jules Ferry | Garage Gamain",
+    "description": "Garage Gamain, 376 chaussée Jules Ferry à Amiens : entretien et vidange, freins, pneus, diagnostic et pannes, carrosserie et rayures, climatisation. Devis gratuit, réponse rapide. 4,1/5 sur Google.",
+    "ogAlt": "Garage Gamain, mécanique et carrosserie, 376 chaussée Jules Ferry à Amiens"
+  },
+  "nav": {
+    "mecanique": "Mécanique",
+    "carrosserie": "Carrosserie",
+    "entretien": "Entretien",
+    "tarifs": "Tarifs",
+    "infos": "Infos",
+    "devis": "Demander un devis",
+    "devisShort": "Devis",
+    "call": "Appeler",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "home": "Garage Gamain, accueil",
+    "lang": "Langue",
+    "skip": "Aller au contenu"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé",
+    "until": "jusqu’à {time}",
+    "reopens": "réouverture {day} à {time}",
+    "today": "aujourd’hui",
+    "tomorrow": "demain"
+  },
+  "days": [
+    "dimanche",
+    "lundi",
+    "mardi",
+    "mercredi",
+    "jeudi",
+    "vendredi",
+    "samedi"
+  ],
+  "rating": {
+    "label": "{value}/5 sur Google",
+    "count": "{count} avis",
+    "asOf": "Note relevée en {date}"
+  },
+  "hero": {
+    "eyebrow": "Mécanique · Carrosserie · Entretien · Amiens",
+    "title": "Un devis clair, une réparation rapide",
+    "lead": "Le garage de la chaussée Jules Ferry entretient et répare toutes les marques. On regarde, on vous explique, on vous donne le prix avant de commencer.",
+    "field": "Votre immatriculation ou votre modèle",
+    "fieldPh": "AB-123-CD ou Clio 4 de 2016",
+    "devis": "Demander un devis",
+    "call": "Appeler",
+    "tarifs": "Voir les tarifs",
+    "photo": "Photo de l’atelier à venir"
+  },
+  "tiles": {
+    "eyebrow": "Ce qu’on fait",
+    "title": "Mécanique, entretien et carrosserie, sous le même toit",
+    "from": "à partir de {price}",
+    "onQuote": "Prix sur devis",
+    "items": {
+      "entretien": {
+        "title": "Entretien & vidange",
+        "text": "Vidange, filtres, révision selon le carnet, distribution, batterie."
+      },
+      "freins": {
+        "title": "Freins",
+        "text": "Plaquettes, disques, liquide de frein. On vous montre l’usure."
+      },
+      "pneus": {
+        "title": "Pneus",
+        "text": "Montage, équilibrage, crevaison. Pneus été, hiver ou 4 saisons."
+      },
+      "diagnostic": {
+        "title": "Diagnostic & panne",
+        "text": "Voyant allumé, bruit suspect, voiture qui ne démarre plus."
+      },
+      "carrosserie": {
+        "title": "Carrosserie & rayures",
+        "text": "Rayures, bosses, pare-chocs, retouches de peinture."
+      },
+      "clim": {
+        "title": "Climatisation",
+        "text": "Recharge, contrôle du circuit, recherche de fuite."
+      }
+    }
+  },
+  "strip": {
+    "label": "En bref",
+    "items": [
+      {
+        "title": "Devis gratuit",
+        "text": "Le prix vous est donné avant toute intervention."
+      },
+      {
+        "title": "Réponse rapide",
+        "text": "On vous rappelle vite, avec un prix et un délai."
+      },
+      {
+        "title": "Toutes marques",
+        "text": "Citadines, familiales, utilitaires, essence ou diesel."
+      },
+      {
+        "title": "03 22 50 36 36",
+        "text": "Une question, un bruit bizarre ? Appelez le garage."
+      }
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Avant / après",
+    "title": "Une rayure, un choc : le résultat en photos",
+    "lead": "Faites glisser le curseur pour comparer. Les photos sont prises au garage, avant et après réparation.",
+    "before": "Avant",
+    "after": "Après",
+    "handle": "Comparer avant et après",
+    "soon": "Les premières photos avant / après arrivent. Faites glisser le curseur : c’est ici que vous verrez le travail de carrosserie.",
+    "slotBefore": "Photo avant réparation",
+    "slotAfter": "Photo après réparation",
+    "slots": [
+      "Rayure sur portière",
+      "Pare-chocs enfoncé"
+    ]
+  },
+  "tarifs": {
+    "eyebrow": "Tarifs & durées",
+    "title": "Des prix annoncés avant de commencer",
+    "lead": "Les prix dépendent du modèle et des pièces. Donnez-nous votre immatriculation : on vous fait un devis précis, gratuit, avant toute intervention.",
+    "note": "Durées d’immobilisation indicatives, selon le modèle et la disponibilité des pièces.",
+    "head": {
+      "service": "Prestation",
+      "price": "Prix indicatif",
+      "delay": "Durée"
+    },
+    "from": "à partir de {price}",
+    "onQuote": "sur devis",
+    "confirm": "à confirmer",
+    "ask": "Demander un devis"
+  },
+  "blocks": {
+    "entretien": {
+      "eyebrow": "Entretien",
+      "title": "L’entretien, sans perdre votre garantie",
+      "text": "Vidange, filtres, révision selon le carnet du constructeur : l’entretien fait chez nous préserve la garantie de votre voiture, avec des pièces de qualité équivalente à l’origine. On vous dit ce qui est urgent et ce qui peut attendre.",
+      "cta": "Prendre rendez-vous"
+    },
+    "carrosserie": {
+      "eyebrow": "Carrosserie",
+      "title": "Une rayure, une bosse ? Envoyez une photo",
+      "text": "Un coup de portière sur un parking, un pare-chocs frotté contre un poteau, une rayure le long de l’aile : prenez une ou deux photos avec votre téléphone, on vous dit ce qui est possible et à quel prix, avant même que vous passiez.",
+      "cta": "Envoyer des photos"
+    },
+    "confiance": {
+      "eyebrow": "Confiance",
+      "title": "Un devis clair, des pièces expliquées",
+      "text": "Avant de toucher à votre voiture, on vous explique la panne, les pièces à changer et le prix. Si on trouve autre chose en cours de route, on vous appelle d’abord. Et les pièces remplacées, on vous les montre si vous le souhaitez.",
+      "cta": "Demander un devis"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Avis Google",
+    "title": "Ce qui revient dans les avis",
+    "themes": [
+      "Des prix corrects",
+      "Des devis clairs",
+      "Un garage réactif",
+      "Un garagiste de confiance",
+      "Carrosserie et rayures",
+      "Pannes réglées"
+    ],
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Passez au garage",
+    "address": "Adresse",
+    "route": "Itinéraire",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "closedDay": "Fermé",
+    "toConfirm": "à confirmer",
+    "closures": "Fermetures à venir",
+    "access": "Accès et stationnement",
+    "accessText": "Sur la chaussée Jules Ferry, l’axe qui part vers Longueau, à l’est d’Amiens. Stationnement devant le garage le temps de déposer la voiture, ou dans les rues voisines. Si la voiture reste la journée, on vous dit où la laisser.",
+    "mapTitle": "Plan d’accès au Garage Gamain, 376 chaussée Jules Ferry à Amiens"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de venir",
+    "items": [
+      {
+        "q": "Faut-il prendre rendez-vous ?",
+        "a": "Pour un entretien ou une réparation, oui : appelez le 03 22 50 36 36 ou faites une demande en ligne, on vous propose un créneau. Pour un diagnostic rapide ou un conseil, passez pendant les heures d’ouverture."
+      },
+      {
+        "q": "Quels sont vos horaires ?",
+        "a": "Du lundi au vendredi, de 8 h 30 à 12 h et de 13 h 45 à 18 h. Les horaires du samedi sont à confirmer : appelez avant de passer."
+      },
+      {
+        "q": "Le devis est-il gratuit ?",
+        "a": "Oui. On vous donne le prix avant toute intervention, et rien n’est fait sans votre accord. Pour la carrosserie, une ou deux photos suffisent souvent pour une première estimation."
+      },
+      {
+        "q": "Combien de temps garde-t-on ma voiture ?",
+        "a": "Une vidange ou des plaquettes se font en une à deux heures. Une distribution, un embrayage ou de la carrosserie demandent souvent une à plusieurs journées, selon les pièces. On vous annonce la durée au moment du devis."
+      },
+      {
+        "q": "Quels moyens de paiement acceptez-vous ?",
+        "a": "Carte bancaire et espèces, à confirmer avec le garage. Le paiement se fait à la restitution du véhicule."
+      },
+      {
+        "q": "Où se garer en arrivant ?",
+        "a": "Devant le garage, au 376 chaussée Jules Ferry, le temps de déposer la voiture et les clés. Si elle reste plusieurs jours, on vous indique où la laisser."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Mécanique, entretien et carrosserie toutes marques, chaussée Jules Ferry à Amiens. Devis gratuit, réponse rapide.",
+    "contact": "Garage",
+    "pages": "Pages",
+    "days": "Du lundi au vendredi\n8 h 30 – 12 h, 13 h 45 – 18 h",
+    "closed": "Samedi : à confirmer · Dimanche : fermé",
+    "rights": "Garage Gamain Cédric, Amiens",
+    "legal": "Mentions légales"
+  },
+  "devis": {
+    "eyebrow": "Devis gratuit",
+    "title": "Demander un devis",
+    "lead": "Indiquez votre voiture et ce qui ne va pas, ajoutez 1 à 3 photos si c’est de la carrosserie. Le garage vous rappelle avec un prix et un délai. Rien n’est fait sans votre accord.",
+    "preferCall": "Plus simple au téléphone ?",
+    "sections": {
+      "vehicle": "Votre véhicule",
+      "need": "Votre besoin",
+      "photos": "Les photos",
+      "date": "La date souhaitée",
+      "contact": "Vos coordonnées"
+    },
+    "fields": {
+      "vehicle": "Immatriculation ou modèle",
+      "vehiclePh": "AB-123-CD ou Peugeot 208 de 2017",
+      "km": "Kilométrage",
+      "kmPh": "Ex. : 92 000",
+      "needs": {
+        "entretien": "Entretien",
+        "panne": "Panne",
+        "carrosserie": "Carrosserie",
+        "autre": "Autre"
+      },
+      "detailsLabel": "Plus précisément",
+      "detailsHint": "plusieurs choix possibles",
+      "details": "Décrivez ce qui se passe",
+      "detailsPh": "Ex. : voyant moteur orange depuis hier, bruit au freinage à l’avant, rayure sur la portière arrière gauche…",
+      "photos": "Ajouter des photos",
+      "photosHint": "Surtout pour la carrosserie : une vue d’ensemble, puis le détail du dommage.",
+      "photoRemove": "Retirer la photo",
+      "photosCount": "{count}/3",
+      "delays": {
+        "asap": "Dès que possible",
+        "semaine": "Cette semaine",
+        "date": "À une date précise :"
+      },
+      "date": "Date souhaitée",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "emailHint": "(pour recevoir la confirmation)",
+      "message": "Message",
+      "messagePh": "Une précision, une disponibilité, une question…"
+    },
+    "details": {
+      "vidange": "Vidange",
+      "revision": "Révision",
+      "freins": "Freins",
+      "pneus": "Pneus",
+      "distribution": "Distribution",
+      "clim": "Climatisation",
+      "batterie": "Batterie",
+      "voyant": "Voyant allumé",
+      "demarrage": "Ne démarre plus",
+      "bruit": "Bruit anormal",
+      "fumee": "Fumée, odeur",
+      "embrayage": "Embrayage",
+      "controle-technique": "Contre-visite CT",
+      "rayure": "Rayure",
+      "bosse": "Bosse, choc",
+      "pare-chocs": "Pare-chocs",
+      "retroviseur": "Rétroviseur",
+      "phares": "Phares",
+      "peinture": "Peinture"
+    },
+    "errors": {
+      "vehicle": "Indiquez l’immatriculation ou le modèle.",
+      "need": "Choisissez votre besoin.",
+      "details": "Dites-nous ce qu’il faut faire (une case ou quelques mots).",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "photo": "Cette photo n’a pas pu être lue. Essayez une autre image.",
+      "generic": "L’envoi n’a pas abouti. Réessayez, ou appelez le garage au 03 22 50 36 36."
+    },
+    "submit": "Envoyer la demande",
+    "sending": "Envoi…",
+    "privacy": "Vos coordonnées servent uniquement à répondre à cette demande. Elles ne sont ni revendues ni utilisées pour de la publicité.",
+    "success": {
+      "title": "Demande bien reçue",
+      "text": "Le garage regarde votre demande et vous rappelle avec un prix et un délai.",
+      "email": "Un récapitulatif vient de vous être envoyé par e-mail.",
+      "notNotified": "Pour être sûr que le garage l’a bien reçue, appelez directement :",
+      "again": "Faire une autre demande"
+    },
+    "message": {
+      "title": "Nouvelle demande de devis",
+      "vehicle": "Véhicule",
+      "km": "Kilométrage",
+      "need": "Besoin",
+      "details": "Précisément",
+      "description": "Description",
+      "date": "Date souhaitée",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "photos": "Photos jointes"
+    },
+    "email": {
+      "subject": "Demande de devis",
+      "confirmSubject": "Votre demande de devis, Garage Gamain",
+      "confirmIntro": "Bonjour {name},\n\nMerci pour votre demande. Voici ce que nous avons reçu :",
+      "confirmOutro": "Nous vous rappelons avec un prix et un délai. Pour toute question : {phone}, du lundi au vendredi, 8 h 30 – 12 h et 13 h 45 – 18 h.\n\nGarage Gamain\n376 chaussée Jules Ferry, 80090 Amiens"
+    }
+  },
+  "pages": {
+    "carrosserie": {
+      "metaTitle": "Carrosserie à Amiens, rayures et chocs | Garage Gamain, chaussée Jules Ferry",
+      "metaDescription": "Carrosserie à Amiens : rayures, bosses, pare-chocs, retouches de peinture, phares. Devis gratuit sur photo, réponse rapide. Garage Gamain, 376 chaussée Jules Ferry.",
+      "eyebrow": "Carrosserie · Amiens",
+      "title": "Carrosserie à Amiens",
+      "intro": "Une rayure sur la portière, un pare-chocs enfoncé, une bosse de parking : envoyez une photo, on vous dit ce qui se répare et à quel prix. Toutes marques, chaussée Jules Ferry.",
+      "cta": "Envoyer des photos",
+      "listTitle": "Ce qu’on répare",
+      "list": [
+        {
+          "title": "Rayures",
+          "text": "Rayure superficielle ou jusqu’à la tôle : retouche, polissage ou reprise de peinture selon la profondeur."
+        },
+        {
+          "title": "Bosses et chocs",
+          "text": "Portière, aile, capot : on redresse quand c’est possible, on remplace quand c’est plus raisonnable."
+        },
+        {
+          "title": "Pare-chocs",
+          "text": "Fissuré, enfoncé, décroché : réparation, fixation ou remplacement."
+        },
+        {
+          "title": "Phares et rétroviseurs",
+          "text": "Optiques jaunies rénovées, rétroviseurs et coques remplacés."
+        }
+      ],
+      "howTitle": "Comment ça se passe",
+      "how": [
+        {
+          "title": "Vous envoyez 1 à 3 photos",
+          "text": "Une vue d’ensemble de la voiture, puis le dommage de près, à la lumière du jour si possible."
+        },
+        {
+          "title": "On vous rappelle avec un prix",
+          "text": "Une première estimation, puis le devis définitif quand on voit la voiture. Gratuit, sans engagement."
+        },
+        {
+          "title": "On fixe la date ensemble",
+          "text": "On vous annonce la durée d’immobilisation, et on vous prévient dès que la voiture est prête."
+        }
+      ],
+      "related": "Assurance : si un expert doit passer, apportez-nous le constat et les coordonnées de votre assureur, on s’organise avec lui. À confirmer avec le garage."
+    },
+    "entretien": {
+      "metaTitle": "Entretien et vidange à Amiens, révision toutes marques | Garage Gamain",
+      "metaDescription": "Vidange, révision selon le carnet constructeur, filtres, freins, distribution à Amiens. Garantie constructeur préservée, devis gratuit. Garage Gamain, chaussée Jules Ferry.",
+      "eyebrow": "Entretien · Amiens",
+      "title": "Entretien et vidange à Amiens",
+      "intro": "Un entretien régulier, c’est moins de pannes et une voiture qui se revend mieux. On suit le carnet de votre constructeur, toutes marques, et on vous dit franchement ce qui peut attendre.",
+      "cta": "Prendre rendez-vous",
+      "listTitle": "L’entretien courant",
+      "list": [
+        {
+          "title": "Vidange",
+          "text": "Huile adaptée à votre moteur et filtre à huile neuf, niveaux contrôlés."
+        },
+        {
+          "title": "Révision",
+          "text": "Selon le programme du constructeur : la garantie de votre voiture est préservée."
+        },
+        {
+          "title": "Freins et pneus",
+          "text": "Contrôle de l’usure à chaque passage, et on vous montre ce qu’il en est."
+        },
+        {
+          "title": "Distribution",
+          "text": "Courroie et galets changés à l’échéance prévue, avant la casse moteur."
+        }
+      ],
+      "howTitle": "Quand faire l’entretien ?",
+      "how": [
+        {
+          "title": "Suivez le carnet",
+          "text": "En général tous les 15 000 à 30 000 km, ou une fois par an. L’échéance est dans le carnet ou sur l’ordinateur de bord."
+        },
+        {
+          "title": "Surveillez les voyants",
+          "text": "Une clé ou un bidon d’huile au tableau de bord : la vidange approche, ne roulez pas des mois comme ça."
+        },
+        {
+          "title": "Avant les longs trajets",
+          "text": "Avant les vacances ou l’hiver : pneus, freins, batterie, niveaux. Une heure au garage, des kilomètres sereins."
+        }
+      ],
+      "related": "Vous ne savez pas où en est votre voiture ? Donnez-nous l’immatriculation et le kilométrage, on vous dit ce qui est prévu à cette échéance."
+    }
+  },
+  "legal": {
+    "metaTitle": "Mentions légales | Garage Gamain, Amiens",
+    "title": "Mentions légales",
+    "editor": "Éditeur",
+    "editorText": "{company}, 376 chaussée Jules Ferry, 80090 Amiens. Téléphone : 03 22 50 36 36.",
+    "siret": "SIRET : {siret}.",
+    "siretMissing": "SIRET : à remplir.",
+    "director": "Responsable de la publication : {director}.",
+    "host": "Hébergeur",
+    "data": "Données personnelles",
+    "dataText": "Les informations envoyées par le formulaire de devis (véhicule, nom, téléphone, e-mail, photos, message) servent uniquement à répondre à votre demande. Elles sont transmises par e-mail au garage et ne sont pas conservées sur le site. Vous pouvez demander leur suppression en appelant le garage.",
+    "photos": "Photos",
+    "photosText": "Photos du garage : Garage Gamain. Aucune image de banque d’images ni générée par intelligence artificielle.",
+    "cookies": "Cookies",
+    "cookiesText": "Le site n’utilise aucun cookie publicitaire ni de mesure d’audience. Seul votre choix de langue est mémorisé. La carte est fournie par Google Maps."
+  },
+  "alt": {}
+}

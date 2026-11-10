@@ -1,0 +1,17 @@
+# Garage Gamain
+
+> Garage de mécanique et de carrosserie toutes marques (Garage Gamain Cédric), 376 chaussée Jules Ferry, 80090 Amiens, France. Téléphone : 03 22 50 36 36. Catégorie Google : atelier de réparation automobile. Note Google : 4,1/5 (123 avis, relevé du 10 novembre 2026).
+
+Prestations : entretien et vidange, révision selon le carnet constructeur, filtres, distribution, batterie ; freinage (plaquettes, disques, liquide) ; pneus (montage, équilibrage, crevaison) ; diagnostic électronique et recherche de panne, embrayage, échappement, préparation au contrôle technique ; carrosserie (rayures, bosses, pare-chocs, peinture, optiques de phare) ; climatisation (recharge, recherche de fuite).
+
+Horaires : du lundi au vendredi, 8 h 30 – 12 h et 13 h 45 – 18 h ; samedi à confirmer ; fermé le dimanche.
+
+Devis : gratuit, par téléphone ou en ligne (immatriculation ou modèle, besoin, 1 à 3 photos du dommage) ; le garage rappelle avec un prix et un délai. Pas de paiement en ligne.
+
+## Pages
+
+- [Accueil](https://garage-gamain-amiens.vercel.app/fr): services, tarifs et durées, avant / après, infos pratiques, FAQ
+- [Demande de devis](https://garage-gamain-amiens.vercel.app/fr/devis)
+- [Carrosserie à Amiens](https://garage-gamain-amiens.vercel.app/fr/carrosserie-amiens)
+- [Entretien et vidange à Amiens](https://garage-gamain-amiens.vercel.app/fr/entretien-vidange-amiens)
+- [English version](https://garage-gamain-amiens.vercel.app/en)

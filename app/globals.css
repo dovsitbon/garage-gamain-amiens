@@ -1,0 +1,385 @@
+@import "tailwindcss";
+
+@theme {
+  /* Charte : blanc cassé, bleu acier, rouge réservé aux actions, gris béton, noir */
+  --color-paper: #fafaf8;
+  --color-white: #ffffff;
+  --color-concrete: #d8d8d5;
+  --color-concrete-soft: #ededea;
+  --color-line: #d8d8d5;
+  --color-ink: #161616;
+  /* Bleu acier : 11,6:1 sur blanc cassé */
+  --color-steel: #1e3a56;
+  --color-steel-deep: #152b41;
+  /* Bleu clair sur bleu acier (texte secondaire, pictos) : 4,9:1 */
+  --color-steel-light: #a9bed3;
+  /* Rouge : boutons d'action (texte blanc 5,3:1) ; jamais en grand aplat */
+  --color-red: #c5302b;
+  --color-red-dark: #a3241f;
+  /* Texte secondaire : 7:1 sur blanc cassé */
+  --color-muted: #52565b;
+
+  --font-body: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 6.5rem;
+  }
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-steel);
+    color: var(--color-white);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-steel);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-steel);
+  }
+  /* Titres : Archivo, capitales robustes, légèrement élargies */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 760;
+    font-stretch: 108%;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+  .title {
+    font-family: var(--font-display);
+    font-weight: 650;
+    font-stretch: 100%;
+    line-height: 1.15;
+    letter-spacing: -0.005em;
+  }
+  .nav-link {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .btn-solid,
+  .btn-line,
+  .btn-steel {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.2;
+    transition:
+      background-color 0.25s var(--ease-soft),
+      color 0.25s var(--ease-soft),
+      border-color 0.25s var(--ease-soft);
+  }
+  .btn-solid {
+    background: var(--color-red);
+    color: var(--color-white);
+    border: 1px solid var(--color-red);
+  }
+  .btn-solid:hover {
+    background: var(--color-red-dark);
+    border-color: var(--color-red-dark);
+  }
+  .btn-steel {
+    background: var(--color-steel);
+    color: var(--color-white);
+    border: 1px solid var(--color-steel);
+  }
+  .btn-steel:hover {
+    background: var(--color-steel-deep);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-white);
+  }
+  .btn-line.on-dark:hover {
+    background: var(--color-white);
+    border-color: var(--color-white);
+    color: var(--color-steel);
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color 0.25s;
+  }
+  .link-line:hover {
+    text-decoration-color: transparent;
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid #bdbdb9;
+    border-radius: 0.25rem;
+    background: var(--color-white);
+    padding: 0.75rem 0.9rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition: border-color 0.2s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-steel);
+    box-shadow: 0 0 0 1px var(--color-steel);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-red);
+  }
+  .field::placeholder {
+    color: #85898e;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #bdbdb9;
+    border-radius: 0.25rem;
+    background: var(--color-white);
+    min-height: 2.75rem;
+    padding: 0.45rem 1rem;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-steel);
+  }
+  .chip:has(input:checked) {
+    border-color: var(--color-steel);
+    background: var(--color-steel);
+    color: var(--color-white);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-steel);
+    outline-offset: 3px;
+  }
+
+  .shine {
+    position: relative;
+    overflow: hidden;
+  }
+  .shine img {
+    transition: transform 1.2s var(--ease-soft);
+  }
+  .group:hover .shine img {
+    transform: scale(1.03);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) : courte et sobre */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 16px));
+}
+.reveal {
+  transition:
+    opacity 0.7s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.7s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.8s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,2 s) : fond gris clair, une clé plate au trait bleu tourne d'un quart de tour,
+   « GARAGE GAMAIN » apparaît puis « AMIENS », fondu sur le hero. Une fois par session. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-concrete-soft);
+  animation: intro-out 0.22s ease-out 0.98s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw 0.34s cubic-bezier(0.5, 0, 0.3, 1) 0.04s forwards;
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-turn {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+  animation: turn 0.42s cubic-bezier(0.6, 0, 0.25, 1) 0.2s forwards;
+}
+@keyframes turn {
+  to {
+    transform: rotate(0deg);
+  }
+}
+.intro-fade {
+  opacity: 0;
+  animation: fade-up 0.26s var(--ease-soft) var(--d, 0.6s) forwards;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Emplacement photo en attente : gris béton (ou bleu acier), cadre en pointillés, dessin au trait */
+.slot {
+  position: relative;
+  background-color: var(--color-concrete-soft);
+}
+.slot::after {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px dashed color-mix(in srgb, var(--color-steel) 35%, transparent);
+  pointer-events: none;
+}
+.slot.dark {
+  background-color: var(--color-steel);
+}
+.slot.dark::after {
+  border-color: color-mix(in srgb, var(--color-white) 22%, transparent);
+}
+
+/* Curseur avant / après */
+.compare input[type="range"] {
+  appearance: none;
+  background: transparent;
+  cursor: ew-resize;
+}
+.compare input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 2.75rem;
+  height: 100vh;
+}
+.compare input[type="range"]::-moz-range-thumb {
+  width: 2.75rem;
+  height: 100vh;
+  border: 0;
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01ms !important;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+  .intro-curtain {
+    display: none;
+  }
+}
