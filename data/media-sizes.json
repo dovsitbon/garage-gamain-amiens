@@ -1,1 +1,46 @@
-{}
+{
+ "/media/hero/facade-enseigne-precisium.jpg": [
+  2400,
+  1807
+ ],
+ "/media/facade/facade-vitrines-precisium.jpg": [
+  1150,
+  1280
+ ],
+ "/media/services/vidange.jpg": [
+  1600,
+  1066
+ ],
+ "/media/services/freins.jpg": [
+  1600,
+  1069
+ ],
+ "/media/services/pneus.jpg": [
+  1600,
+  1066
+ ],
+ "/media/services/diagnostic.jpg": [
+  1600,
+  1360
+ ],
+ "/media/services/carrosserie-poncage.jpg": [
+  1600,
+  1066
+ ],
+ "/media/services/carrosserie-pare-chocs.jpg": [
+  1600,
+  1066
+ ],
+ "/media/services/climatisation.jpg": [
+  1600,
+  1069
+ ],
+ "/media/services/atelier-pont.jpg": [
+  1600,
+  1066
+ ],
+ "/media/services/mecanicien-moteur.jpg": [
+  1600,
+  900
+ ]
+}

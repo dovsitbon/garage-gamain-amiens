@@ -182,7 +182,7 @@ function Entretien({ lang, d }: { lang: Locale; d: Dict }) {
       p={d.pages.entretien}
       cats={["entretien", "freins"]}
       query="?b=entretien"
-      media={<Slot src={slot("entretien") ?? slot("atelier")} d={d} priority sizes="(min-width:768px) 45vw, 100vw" className="aspect-[4/3] md:aspect-[4/5]" icon={<OilIcon className="size-20" />} label={d.hero.photo} dark />}
+      media={<Slot src={slot("atelier") ?? slot("entretien")} d={d} priority sizes="(min-width:768px) 45vw, 100vw" className="aspect-[4/3] md:aspect-[4/5]" icon={<OilIcon className="size-20" />} label={d.hero.photo} dark />}
     />
   );
 }

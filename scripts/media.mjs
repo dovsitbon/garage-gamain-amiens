@@ -9,16 +9,25 @@ import path from "node:path";
 import sharp from "sharp";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
-const DIRS = ["raw", "hero", "atelier", "avant-apres", "equipe", "facade"];
+const DIRS = ["raw", "hero", "atelier", "avant-apres", "equipe", "facade", "stock"];
 
 // [fichier source (depuis assets/), dossier, nom, recadrage { top, bottom, left, right } en pixels retirés]
 const PICKS = [
-  // Aucune photo pour l'instant (pas de gamain_*.jpg dans Téléchargements). Exemples, une fois sur place :
-  // ["hero/atelier-pont-elevateur.jpg", "hero", "atelier-pont-elevateur", {}],
-  // ["facade/facade-chaussee-jules-ferry.jpg", "facade", "facade", {}],
-  // ["atelier/vidange.jpg", "atelier", "vidange", {}],
+  // Vraies photos du garage (fiche Google Maps, contributions publiques) : la façade et son enseigne
+  ["facade/facade-enseigne-precisium.jpg", "hero", "facade-enseigne-precisium", {}],
+  ["facade/facade-chaussee-jules-ferry.jpg", "facade", "facade-vitrines-precisium", { left: 80, top: 420, right: 1170, bottom: 107 }],
+  // Photos libres de droits (Unsplash) : illustrent un service, jamais présentées comme le garage. Voir PHOTOS-SOURCES.md
+  ["stock/vidange.jpg", "services", "vidange", {}],
+  ["stock/freins.jpg", "services", "freins", {}],
+  ["stock/pneus.jpg", "services", "pneus", {}],
+  ["stock/diagnostic.jpg", "services", "diagnostic", { top: 700, bottom: 600 }],
+  ["stock/carrosserie-poncage.jpg", "services", "carrosserie-poncage", {}],
+  ["stock/carrosserie-pare-chocs.jpg", "services", "carrosserie-pare-chocs", {}],
+  ["stock/climatisation.jpg", "services", "climatisation", {}],
+  ["stock/atelier-pont.jpg", "services", "atelier-pont", {}],
+  ["stock/mecanicien-moteur.jpg", "services", "mecanicien-moteur", {}],
+  // À remplacer par les photos prises sur place (atelier, équipe, avant / après), par exemple :
   // ["avant-apres/portiere-avant.jpg", "avant-apres", "portiere-avant", {}],
-  // ["avant-apres/portiere-apres.jpg", "avant-apres", "portiere-apres", {}],
 ];
 
 const sizes = {};
@@ -34,28 +43,20 @@ for (const [src, dir, name, c] of PICKS) {
 for (const dir of DIRS) await mkdir(path.join(ROOT, "assets", dir), { recursive: true });
 await writeFile(path.join(ROOT, "data/media-sizes.json"), JSON.stringify(sizes, null, 1) + "\n");
 
-// Image de partage (Open Graph) 1200 × 630 : tant qu'il n'y a pas de photo de façade, une composition graphique
-// (bleu acier, logo, voiture au trait), sans fausse photo.
+// Image de partage (Open Graph) 1200 × 630 : la vraie façade du garage, assombrie à gauche, avec le nom et l'adresse.
 const site = JSON.parse(await readFile(path.join(ROOT, "data/site.json"), "utf8"));
-const WRENCH = "M2.46 21.5H9v5H2.46A7 7 0 0 0 15.7 26H41a2 2 0 0 0 0-4H15.7A7 7 0 0 0 2.46 21.5Z";
-const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#1E3A56"/>
-  <g transform="translate(560 250) scale(1.6)" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M20 108h22a24 24 0 0 1 48 0h176a24 24 0 0 1 48 0h56V88l-9-15-47-9-47-32c-12-8-30-12-62-12h-44c-24 0-40 5-56 15L68 56l-34 9c-9 2-14 8-14 15Z"/>
-    <path d="M106 60l28-27c6-4 14-6 24-6h34v33ZM202 60V27h26c14 0 24 3 34 10l26 23ZM196 60v44"/>
-    <circle cx="66" cy="108" r="19"/><circle cx="66" cy="108" r="8"/><circle cx="290" cy="108" r="19"/><circle cx="290" cy="108" r="8"/>
-  </g>
-  <g transform="translate(80 92) scale(2.2)" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="24" cy="24" r="21.5" stroke-width="2.6"/><circle cx="24" cy="24" r="16.8" stroke-width="1.3"/>
-    <path d="${WRENCH}" transform="translate(24 24) rotate(-45) scale(0.7) translate(-22.5 -24)" stroke-width="2.4" stroke="#FF8A84"/>
-  </g>
-  <text x="80" y="300" fill="#FFFFFF" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="88" letter-spacing="2">GARAGE GAMAIN</text>
-  <text x="82" y="352" fill="#A9BED3" font-family="Arial, sans-serif" font-weight="700" font-size="26" letter-spacing="5">MÉCANIQUE · CARROSSERIE · ENTRETIEN · AMIENS</text>
-  <rect x="80" y="410" width="64" height="5" fill="#C5302B"/>
-  <text x="80" y="480" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="32">Devis gratuit, réponse rapide</text>
-  <text x="80" y="530" fill="#FFFFFF" fill-opacity="0.8" font-family="Arial, sans-serif" font-size="26">${site.address.street}, ${site.address.postalCode} ${site.address.city} · ${site.phone}</text>
+const photo = await sharp(path.join(ROOT, "assets/facade/facade-enseigne-precisium.jpg")).resize(1200, 630, { fit: "cover", position: "centre" }).toBuffer();
+const overlay = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#152B41" stop-opacity="0.95"/><stop offset="0.55" stop-color="#152B41" stop-opacity="0.78"/><stop offset="1" stop-color="#152B41" stop-opacity="0.1"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <text x="72" y="250" fill="#FFFFFF" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="78" letter-spacing="1">GARAGE GAMAIN</text>
+  <text x="74" y="300" fill="#A9BED3" font-family="Arial, sans-serif" font-weight="700" font-size="24" letter-spacing="4">MÉCANIQUE · CARROSSERIE · ENTRETIEN · AMIENS</text>
+  <rect x="72" y="350" width="64" height="5" fill="#C5302B"/>
+  <text x="72" y="420" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="32">Devis gratuit, réponse rapide</text>
+  <text x="72" y="470" fill="#FFFFFF" fill-opacity="0.85" font-family="Arial, sans-serif" font-size="25">${site.address.street}, ${site.address.postalCode} ${site.address.city}</text>
+  <text x="72" y="510" fill="#FFFFFF" fill-opacity="0.85" font-family="Arial, sans-serif" font-size="25">${site.phone}</text>
 </svg>`;
-await sharp(Buffer.from(og)).jpeg({ quality: 86, mozjpeg: true }).toFile(path.join(ROOT, "public/og.jpg"));
+await sharp(photo).composite([{ input: Buffer.from(overlay) }]).jpeg({ quality: 84, mozjpeg: true }).toFile(path.join(ROOT, "public/og.jpg"));
 
 // Icône Apple (180 × 180) depuis le favicon
 await sharp(path.join(ROOT, "app/icon.svg"), { density: 400 }).resize(180, 180).png().toFile(path.join(ROOT, "app/apple-icon.png"));

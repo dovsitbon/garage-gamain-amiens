@@ -33,7 +33,15 @@
     "today": "today",
     "tomorrow": "tomorrow"
   },
-  "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  "days": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
   "rating": {
     "label": "{value}/5 on Google",
     "count": "{count} reviews",
@@ -56,21 +64,51 @@
     "from": "from {price}",
     "onQuote": "Price on quote",
     "items": {
-      "entretien": { "title": "Servicing & oil change", "text": "Oil change, filters, scheduled service, timing belt, battery." },
-      "freins": { "title": "Brakes", "text": "Pads, discs, brake fluid. We show you the wear." },
-      "pneus": { "title": "Tyres", "text": "Fitting, balancing, punctures. Summer, winter or all-season." },
-      "diagnostic": { "title": "Diagnostics & breakdowns", "text": "Warning light on, odd noise, car that won’t start." },
-      "carrosserie": { "title": "Bodywork & scratches", "text": "Scratches, dents, bumpers, paint touch-ups." },
-      "clim": { "title": "Air conditioning", "text": "Re-gas, system check, leak finding." }
+      "entretien": {
+        "title": "Servicing & oil change",
+        "text": "Oil change, filters, scheduled service, timing belt, battery."
+      },
+      "freins": {
+        "title": "Brakes",
+        "text": "Pads, discs, brake fluid. We show you the wear."
+      },
+      "pneus": {
+        "title": "Tyres",
+        "text": "Fitting, balancing, punctures. Summer, winter or all-season."
+      },
+      "diagnostic": {
+        "title": "Diagnostics & breakdowns",
+        "text": "Warning light on, odd noise, car that won’t start."
+      },
+      "carrosserie": {
+        "title": "Bodywork & scratches",
+        "text": "Scratches, dents, bumpers, paint touch-ups."
+      },
+      "clim": {
+        "title": "Air conditioning",
+        "text": "Re-gas, system check, leak finding."
+      }
     }
   },
   "strip": {
     "label": "At a glance",
     "items": [
-      { "title": "Free quote", "text": "You get the price before any work starts." },
-      { "title": "Quick reply", "text": "We call you back fast, with a price and a time frame." },
-      { "title": "Every make", "text": "Small cars, family cars, vans, petrol or diesel." },
-      { "title": "03 22 50 36 36", "text": "A question, a strange noise? Call the garage." }
+      {
+        "title": "Free quote",
+        "text": "You get the price before any work starts."
+      },
+      {
+        "title": "Quick reply",
+        "text": "We call you back fast, with a price and a time frame."
+      },
+      {
+        "title": "Every make",
+        "text": "Small cars, family cars, vans, petrol or diesel."
+      },
+      {
+        "title": "03 22 50 36 36",
+        "text": "A question, a strange noise? Call the garage."
+      }
     ]
   },
   "beforeAfter": {
@@ -83,14 +121,21 @@
     "soon": "The first before / after photos are on their way. Drag the slider: this is where you’ll see the bodywork.",
     "slotBefore": "Photo before repair",
     "slotAfter": "Photo after repair",
-    "slots": ["Scratched door", "Dented bumper"]
+    "slots": [
+      "Scratched door",
+      "Dented bumper"
+    ]
   },
   "tarifs": {
     "eyebrow": "Prices & times",
     "title": "Prices given before we start",
     "lead": "Prices depend on the model and the parts. Give us your registration and we’ll send a precise, free quote before any work.",
     "note": "Indicative time off the road, depending on the model and parts availability.",
-    "head": { "service": "Service", "price": "Indicative price", "delay": "Time" },
+    "head": {
+      "service": "Service",
+      "price": "Indicative price",
+      "delay": "Time"
+    },
     "from": "from {price}",
     "onQuote": "on quote",
     "confirm": "to be confirmed",
@@ -119,7 +164,14 @@
   "reviews": {
     "eyebrow": "Google reviews",
     "title": "What comes up in reviews",
-    "themes": ["Fair prices", "Clear quotes", "A responsive garage", "A mechanic you can trust", "Bodywork and scratches", "Breakdowns sorted"],
+    "themes": [
+      "Fair prices",
+      "Clear quotes",
+      "A responsive garage",
+      "A mechanic you can trust",
+      "Bodywork and scratches",
+      "Breakdowns sorted"
+    ],
     "cta": "Read the reviews on Google"
   },
   "infos": {
@@ -140,12 +192,30 @@
     "eyebrow": "FAQ",
     "title": "Before you come",
     "items": [
-      { "q": "Do I need to book?", "a": "For servicing or a repair, yes: call 03 22 50 36 36 or send a request online and we’ll offer you a slot. For a quick check or some advice, drop by during opening hours." },
-      { "q": "What are your opening hours?", "a": "Monday to Friday, 8:30am to 12pm and 1:45pm to 6pm. Saturday hours are to be confirmed: please call before coming." },
-      { "q": "Is the quote free?", "a": "Yes. You get the price before any work, and nothing is done without your go-ahead. For bodywork, one or two photos are often enough for a first estimate." },
-      { "q": "How long will you keep my car?", "a": "An oil change or brake pads take one to two hours. A timing belt, a clutch or bodywork often take one or more days, depending on parts. We give you the time frame with the quote." },
-      { "q": "How can I pay?", "a": "Card and cash, to be confirmed with the garage. You pay when you collect the car." },
-      { "q": "Where do I park when I arrive?", "a": "In front of the garage at 376 chaussée Jules Ferry, while you drop off the car and keys. If it stays several days, we’ll tell you where to leave it." }
+      {
+        "q": "Do I need to book?",
+        "a": "For servicing or a repair, yes: call 03 22 50 36 36 or send a request online and we’ll offer you a slot. For a quick check or some advice, drop by during opening hours."
+      },
+      {
+        "q": "What are your opening hours?",
+        "a": "Monday to Friday, 8:30am to 12pm and 1:45pm to 6pm. Saturday hours are to be confirmed: please call before coming."
+      },
+      {
+        "q": "Is the quote free?",
+        "a": "Yes. You get the price before any work, and nothing is done without your go-ahead. For bodywork, one or two photos are often enough for a first estimate."
+      },
+      {
+        "q": "How long will you keep my car?",
+        "a": "An oil change or brake pads take one to two hours. A timing belt, a clutch or bodywork often take one or more days, depending on parts. We give you the time frame with the quote."
+      },
+      {
+        "q": "How can I pay?",
+        "a": "Card and cash, to be confirmed with the garage. You pay when you collect the car."
+      },
+      {
+        "q": "Where do I park when I arrive?",
+        "a": "In front of the garage at 376 chaussée Jules Ferry, while you drop off the car and keys. If it stays several days, we’ll tell you where to leave it."
+      }
     ]
   },
   "footer": {
@@ -174,7 +244,12 @@
       "vehiclePh": "AB-123-CD or 2017 Peugeot 208",
       "km": "Mileage (km)",
       "kmPh": "E.g. 92,000",
-      "needs": { "entretien": "Servicing", "panne": "Breakdown", "carrosserie": "Bodywork", "autre": "Other" },
+      "needs": {
+        "entretien": "Servicing",
+        "panne": "Breakdown",
+        "carrosserie": "Bodywork",
+        "autre": "Other"
+      },
       "detailsLabel": "More precisely",
       "detailsHint": "choose as many as you like",
       "details": "Describe what’s happening",
@@ -183,7 +258,11 @@
       "photosHint": "Especially for bodywork: one overall shot, then a close-up of the damage.",
       "photoRemove": "Remove photo",
       "photosCount": "{count}/3",
-      "delays": { "asap": "As soon as possible", "semaine": "This week", "date": "On a specific date:" },
+      "delays": {
+        "asap": "As soon as possible",
+        "semaine": "This week",
+        "date": "On a specific date:"
+      },
       "date": "Preferred date",
       "name": "Name",
       "phone": "Phone",
@@ -264,16 +343,37 @@
       "cta": "Send photos",
       "listTitle": "What we repair",
       "list": [
-        { "title": "Scratches", "text": "Surface scratch or down to the metal: touch-up, polishing or repaint depending on the depth." },
-        { "title": "Dents and impacts", "text": "Door, wing, bonnet: we straighten when we can, and replace when that makes more sense." },
-        { "title": "Bumpers", "text": "Cracked, pushed in or hanging off: repair, refitting or replacement." },
-        { "title": "Headlights and mirrors", "text": "Yellowed lenses restored, mirrors and covers replaced." }
+        {
+          "title": "Scratches",
+          "text": "Surface scratch or down to the metal: touch-up, polishing or repaint depending on the depth."
+        },
+        {
+          "title": "Dents and impacts",
+          "text": "Door, wing, bonnet: we straighten when we can, and replace when that makes more sense."
+        },
+        {
+          "title": "Bumpers",
+          "text": "Cracked, pushed in or hanging off: repair, refitting or replacement."
+        },
+        {
+          "title": "Headlights and mirrors",
+          "text": "Yellowed lenses restored, mirrors and covers replaced."
+        }
       ],
       "howTitle": "How it works",
       "how": [
-        { "title": "Send 1 to 3 photos", "text": "One shot of the whole car, then a close-up of the damage, in daylight if you can." },
-        { "title": "We call you back with a price", "text": "A first estimate, then the final quote once we see the car. Free, no commitment." },
-        { "title": "We agree on a date", "text": "We tell you how long the car will be off the road and let you know as soon as it’s ready." }
+        {
+          "title": "Send 1 to 3 photos",
+          "text": "One shot of the whole car, then a close-up of the damage, in daylight if you can."
+        },
+        {
+          "title": "We call you back with a price",
+          "text": "A first estimate, then the final quote once we see the car. Free, no commitment."
+        },
+        {
+          "title": "We agree on a date",
+          "text": "We tell you how long the car will be off the road and let you know as soon as it’s ready."
+        }
       ],
       "related": "Insurance: if an assessor needs to see the car, bring the accident report and your insurer’s details and we’ll arrange it with them. To be confirmed with the garage."
     },
@@ -286,16 +386,37 @@
       "cta": "Book a slot",
       "listTitle": "Routine servicing",
       "list": [
-        { "title": "Oil change", "text": "The right oil for your engine, a new oil filter, all levels checked." },
-        { "title": "Scheduled service", "text": "By the manufacturer’s programme: your car’s warranty is kept." },
-        { "title": "Brakes and tyres", "text": "Wear checked at every visit, and we show you where things stand." },
-        { "title": "Timing belt", "text": "Belt and tensioners replaced on schedule, before they take the engine with them." }
+        {
+          "title": "Oil change",
+          "text": "The right oil for your engine, a new oil filter, all levels checked."
+        },
+        {
+          "title": "Scheduled service",
+          "text": "By the manufacturer’s programme: your car’s warranty is kept."
+        },
+        {
+          "title": "Brakes and tyres",
+          "text": "Wear checked at every visit, and we show you where things stand."
+        },
+        {
+          "title": "Timing belt",
+          "text": "Belt and tensioners replaced on schedule, before they take the engine with them."
+        }
       ],
       "howTitle": "When should you service?",
       "how": [
-        { "title": "Follow the handbook", "text": "Usually every 15,000 to 30,000 km, or once a year. The interval is in the service book or on the dashboard." },
-        { "title": "Watch the warning lights", "text": "A spanner or oil can on the dashboard means the oil change is due: don’t drive for months like that." },
-        { "title": "Before long trips", "text": "Before the holidays or winter: tyres, brakes, battery, fluids. An hour at the garage for peace of mind." }
+        {
+          "title": "Follow the handbook",
+          "text": "Usually every 15,000 to 30,000 km, or once a year. The interval is in the service book or on the dashboard."
+        },
+        {
+          "title": "Watch the warning lights",
+          "text": "A spanner or oil can on the dashboard means the oil change is due: don’t drive for months like that."
+        },
+        {
+          "title": "Before long trips",
+          "text": "Before the holidays or winter: tyres, brakes, battery, fluids. An hour at the garage for peace of mind."
+        }
       ],
       "related": "Not sure where your car is up to? Give us the registration and mileage, and we’ll tell you what’s due."
     }
@@ -312,9 +433,21 @@
     "data": "Personal data",
     "dataText": "Information sent through the quote form (car, name, phone, email, photos, message) is only used to answer your request. It is emailed to the garage and not stored on the site. You can ask for it to be deleted by calling the garage.",
     "photos": "Photos",
-    "photosText": "Garage photos: Garage Gamain. No stock images and no AI-generated images.",
+    "photosText": "Garage front: photos published on its Google Maps listing. Service illustrations (oil change, brakes, tyres, diagnostics, bodywork, air conditioning, workshop): royalty-free Unsplash photos (Unsplash License) that do not show Garage Gamain. No AI-generated images.",
     "cookies": "Cookies",
     "cookiesText": "The site uses no advertising or analytics cookies. Only your language choice is remembered. The map is provided by Google Maps."
   },
-  "alt": {}
+  "alt": {
+    "facade-enseigne-precisium": "The front of Garage Gamain at 376 chaussée Jules Ferry, Amiens, with its Precisium “Garage Gamain” sign and the “Service rapide” workshop entrance",
+    "facade-vitrines-precisium": "Garage Gamain on chaussée Jules Ferry: the Precisium “Garage Gamain” sign and the shop windows",
+    "vidange": "A mechanic pouring fresh oil into a car engine (illustration photo)",
+    "freins": "Close-up of a brake disc and caliper on a raised car (illustration photo)",
+    "pneus": "A gloved mechanic checking a tyre fitted on its wheel (illustration photo)",
+    "diagnostic": "A laptop plugged into a car’s diagnostic port (illustration photo)",
+    "carrosserie-poncage": "Sanding a car body before repainting (illustration photo)",
+    "carrosserie-pare-chocs": "Repairing a rear bumper protected with masking tape (illustration photo)",
+    "climatisation": "A car’s air-conditioning controls set to 19 degrees (illustration photo)",
+    "atelier-pont": "A mechanic working under an open bonnet in a workshop with car lifts (illustration photo)",
+    "mecanicien-moteur": "A mechanic leaning over a car engine, bonnet open (illustration photo)"
+  }
 }

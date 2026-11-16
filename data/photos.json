@@ -1,18 +1,18 @@
 {
-  "_note": "Emplacements photo du site. Chemin /media/<dossier>/<fichier>.jpg (préparé par npm run media depuis assets/), ou null : le site affiche alors un emplacement dessiné, sans fausse photo. Pour ajouter une photo prise sur place : la poser dans assets/<dossier>/, l'ajouter à scripts/media.mjs (PICKS), lancer npm run media, puis renseigner ici le chemin.",
-  "hero": null,
-  "facade": null,
-  "atelier": null,
-  "entretien": null,
-  "carrosserie": null,
-  "confiance": null,
+  "_note": "Emplacements photo du site. Chemin /media/<dossier>/<fichier>.jpg (préparé par npm run media depuis assets/), ou null : le site affiche alors un emplacement dessiné, sans fausse photo. Pour ajouter une photo prise sur place : la poser dans assets/<dossier>/, l'ajouter à scripts/media.mjs (PICKS), lancer npm run media, puis renseigner ici le chemin. Les vraies photos du garage (façade) viennent de sa fiche Google ; les autres sont des illustrations libres de droits (Unsplash), à remplacer en priorité par des photos prises sur place. Sources : PHOTOS-SOURCES.md.",
+  "hero": "/media/hero/facade-enseigne-precisium.jpg",
+  "facade": "/media/facade/facade-vitrines-precisium.jpg",
+  "atelier": "/media/services/mecanicien-moteur.jpg",
+  "entretien": "/media/services/atelier-pont.jpg",
+  "carrosserie": "/media/services/carrosserie-poncage.jpg",
+  "confiance": "/media/facade/facade-vitrines-precisium.jpg",
   "equipe": null,
   "tiles": {
-    "entretien": null,
-    "freins": null,
-    "pneus": null,
-    "diagnostic": null,
-    "carrosserie": null,
-    "clim": null
+    "entretien": "/media/services/vidange.jpg",
+    "freins": "/media/services/freins.jpg",
+    "pneus": "/media/services/pneus.jpg",
+    "diagnostic": "/media/services/diagnostic.jpg",
+    "carrosserie": "/media/services/carrosserie-pare-chocs.jpg",
+    "clim": "/media/services/climatisation.jpg"
   }
 }

@@ -433,9 +433,21 @@
     "data": "Données personnelles",
     "dataText": "Les informations envoyées par le formulaire de devis (véhicule, nom, téléphone, e-mail, photos, message) servent uniquement à répondre à votre demande. Elles sont transmises par e-mail au garage et ne sont pas conservées sur le site. Vous pouvez demander leur suppression en appelant le garage.",
     "photos": "Photos",
-    "photosText": "Photos du garage : Garage Gamain. Aucune image de banque d’images ni générée par intelligence artificielle.",
+    "photosText": "Façade du garage : photos publiées sur sa fiche Google Maps. Illustrations des services (vidange, freins, pneus, diagnostic, carrosserie, climatisation, atelier) : photos libres de droits Unsplash (licence Unsplash), qui ne montrent pas le Garage Gamain. Aucune image générée par intelligence artificielle. Détail des sources dans PHOTOS-SOURCES.md.",
     "cookies": "Cookies",
     "cookiesText": "Le site n’utilise aucun cookie publicitaire ni de mesure d’audience. Seul votre choix de langue est mémorisé. La carte est fournie par Google Maps."
   },
-  "alt": {}
+  "alt": {
+    "facade-enseigne-precisium": "La façade du Garage Gamain au 376 chaussée Jules Ferry à Amiens, avec l’enseigne Precisium « Garage Gamain » et l’entrée de l’atelier « Service rapide »",
+    "facade-vitrines-precisium": "La façade du Garage Gamain sur la chaussée Jules Ferry : l’enseigne Precisium « Garage Gamain » et les vitrines",
+    "vidange": "Un mécanicien verse de l’huile neuve dans le moteur d’une voiture (photo d’illustration)",
+    "freins": "Gros plan d’un disque et d’un étrier de frein sur une voiture levée (photo d’illustration)",
+    "pneus": "Un mécanicien en gants contrôle un pneu monté sur la roue (photo d’illustration)",
+    "diagnostic": "Un ordinateur portable branché à la prise de diagnostic d’une voiture (photo d’illustration)",
+    "carrosserie-poncage": "Ponçage de la carrosserie d’une voiture avant remise en peinture (photo d’illustration)",
+    "carrosserie-pare-chocs": "Réparation d’un pare-chocs arrière, protégé par un ruban de masquage (photo d’illustration)",
+    "climatisation": "Commandes de climatisation d’une voiture, réglées sur 19 degrés (photo d’illustration)",
+    "atelier-pont": "Un mécanicien travaille capot ouvert dans un atelier équipé de ponts élévateurs (photo d’illustration)",
+    "mecanicien-moteur": "Un mécanicien penché sur le moteur d’une voiture, capot ouvert (photo d’illustration)"
+  }
 }

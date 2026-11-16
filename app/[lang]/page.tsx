@@ -51,8 +51,8 @@ function Hero({ lang, d }: { lang: Locale; d: Dict }) {
     <section aria-labelledby="hero-title" className="relative isolate overflow-hidden bg-steel text-white">
       {photo ? (
         <>
-          <Image src={img(photo).src} width={img(photo).width} height={img(photo).height} alt={alt(d, photo)} priority sizes="100vw" quality={80} className="absolute inset-0 -z-20 size-full object-cover" />
-          <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgb(21_43_65/0.92)_0%,rgb(21_43_65/0.75)_45%,rgb(21_43_65/0.2)_100%)]" aria-hidden="true" />
+          <Image src={img(photo).src} width={img(photo).width} height={img(photo).height} alt={alt(d, photo)} priority sizes="100vw" quality={80} className="absolute inset-0 -z-20 size-full object-cover object-[62%_50%] md:object-center" />
+          <div className="absolute inset-0 -z-10 bg-[rgb(21_43_65/0.8)] md:bg-[linear-gradient(90deg,rgb(21_43_65/0.92)_0%,rgb(21_43_65/0.75)_45%,rgb(21_43_65/0.2)_100%)]" aria-hidden="true" />
         </>
       ) : (
         <div className="absolute inset-0 -z-10" aria-hidden="true">

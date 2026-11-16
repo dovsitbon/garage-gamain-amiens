@@ -463,7 +463,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `legal.data` | Données personnelles | Personal data | |
 | `legal.dataText` | Les informations envoyées par le formulaire de devis (véhicule, nom, téléphone, e-mail, photos, message) servent uniquement à répondre à votre demande. Elles sont transmises par e-mail au garage et ne sont pas conservées sur le site. Vous pouvez demander leur suppression en appelant le garage. | Information sent through the quote form (car, name, phone, email, photos, message) is only used to answer your request. It is emailed to the garage and not stored on the site. You can ask for it to be deleted by calling the garage. | |
 | `legal.photos` | Photos | Photos | |
-| `legal.photosText` | Photos du garage : Garage Gamain. Aucune image de banque d’images ni générée par intelligence artificielle. | Garage photos: Garage Gamain. No stock images and no AI-generated images. | |
+| `legal.photosText` | Façade du garage : photos publiées sur sa fiche Google Maps. Illustrations des services (vidange, freins, pneus, diagnostic, carrosserie, climatisation, atelier) : photos libres de droits Unsplash (licence Unsplash), qui ne montrent pas le Garage Gamain. Aucune image générée par intelligence artificielle. Détail des sources dans PHOTOS-SOURCES.md. | Garage front: photos published on its Google Maps listing. Service illustrations (oil change, brakes, tyres, diagnostics, bodywork, air conditioning, workshop): royalty-free Unsplash photos (Unsplash License) that do not show Garage Gamain. No AI-generated images. | |
 | `legal.cookies` | Cookies | Cookies | |
 | `legal.cookiesText` | Le site n’utilise aucun cookie publicitaire ni de mesure d’audience. Seul votre choix de langue est mémorisé. La carte est fournie par Google Maps. | The site uses no advertising or analytics cookies. Only your language choice is remembered. The map is provided by Google Maps. | |
 
@@ -471,3 +471,14 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 
 | Photo | Français | English |
 |---|---|---|
+| facade-enseigne-precisium | La façade du Garage Gamain au 376 chaussée Jules Ferry à Amiens, avec l’enseigne Precisium « Garage Gamain » et l’entrée de l’atelier « Service rapide » | The front of Garage Gamain at 376 chaussée Jules Ferry, Amiens, with its Precisium “Garage Gamain” sign and the “Service rapide” workshop entrance |
+| facade-vitrines-precisium | La façade du Garage Gamain sur la chaussée Jules Ferry : l’enseigne Precisium « Garage Gamain » et les vitrines | Garage Gamain on chaussée Jules Ferry: the Precisium “Garage Gamain” sign and the shop windows |
+| vidange | Un mécanicien verse de l’huile neuve dans le moteur d’une voiture (photo d’illustration) | A mechanic pouring fresh oil into a car engine (illustration photo) |
+| freins | Gros plan d’un disque et d’un étrier de frein sur une voiture levée (photo d’illustration) | Close-up of a brake disc and caliper on a raised car (illustration photo) |
+| pneus | Un mécanicien en gants contrôle un pneu monté sur la roue (photo d’illustration) | A gloved mechanic checking a tyre fitted on its wheel (illustration photo) |
+| diagnostic | Un ordinateur portable branché à la prise de diagnostic d’une voiture (photo d’illustration) | A laptop plugged into a car’s diagnostic port (illustration photo) |
+| carrosserie-poncage | Ponçage de la carrosserie d’une voiture avant remise en peinture (photo d’illustration) | Sanding a car body before repainting (illustration photo) |
+| carrosserie-pare-chocs | Réparation d’un pare-chocs arrière, protégé par un ruban de masquage (photo d’illustration) | Repairing a rear bumper protected with masking tape (illustration photo) |
+| climatisation | Commandes de climatisation d’une voiture, réglées sur 19 degrés (photo d’illustration) | A car’s air-conditioning controls set to 19 degrees (illustration photo) |
+| atelier-pont | Un mécanicien travaille capot ouvert dans un atelier équipé de ponts élévateurs (photo d’illustration) | A mechanic working under an open bonnet in a workshop with car lifts (illustration photo) |
+| mecanicien-moteur | Un mécanicien penché sur le moteur d’une voiture, capot ouvert (photo d’illustration) | A mechanic leaning over a car engine, bonnet open (illustration photo) |
