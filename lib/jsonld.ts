@@ -25,6 +25,8 @@ export function businessJsonLd(lang: Locale) {
         "@id": BUSINESS_ID,
         name: site.name,
         alternateName: site.fullName,
+        ...(site.legal.company ? { legalName: site.legal.company } : {}),
+        ...(site.legal.siret ? { identifier: { "@type": "PropertyValue", propertyID: "SIRET", value: site.legal.siret } } : {}),
         description: d.meta.description,
         url: `${site.url}/${lang}`,
         image: images,

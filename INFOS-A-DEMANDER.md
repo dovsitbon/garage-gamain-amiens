@@ -11,7 +11,7 @@ Tout ce qui manque sur le site est marqué « à remplir » ou « à confirmer �
 7. **L'email** qui recevra les demandes de devis → variable Vercel `DEVIS_NOTIFY_EMAIL` (et `data/site.json` → `email`).
 8. **Des photos** : façade et enseigne, atelier (pont, outillage), l'équipe au travail (sans clients), et des paires avant / après de carrosserie. Voir [assets/A-PHOTOGRAPHIER.md](assets/A-PHOTOGRAPHIER.md).
 9. **Le logo** : s'il existe un vrai logo (enseigne, cartes de visite, factures), le récupérer en bonne qualité ; sinon valider le logo typographique proposé (`public/logo.svg`).
-10. **SIRET et raison sociale** (mentions légales) → `data/site.json` → `legal`.
+10. ~~SIRET et raison sociale~~ : trouvés dans l'annuaire des entreprises (SAS Garage Gamain Cédric, SIRET 327 544 789 00016) et ajoutés aux mentions légales. À faire confirmer.
 11. **Paiement** : carte bancaire, espèces, chèque ? Paiement en plusieurs fois ?
 12. **Assurances** : travaille-t-il avec les experts et les assurances pour la carrosserie ? Agréé par certaines compagnies ?
 13. **Avis Google** : accord pour citer quelques vrais avis sur le site (`data/avis.json`).
